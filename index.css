@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stroke-text {
+  -webkit-text-stroke: 1px #000;
+  color: transparent;
+}
+
+.stroke-text:hover {
+  -webkit-text-stroke: 0px;
+}
